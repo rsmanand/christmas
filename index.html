@@ -61,13 +61,13 @@ const name = params.get("name") || "My Friend";
 
 document.getElementById("msg").innerHTML = `
 <h1>🎄 Dear ${name} 🎄</h1>
-<h2>Murugu wishes you a Merry Christmas 🎅</h2>
+<h2>Muruganandam R S wishes you a Merry Christmas 🎅</h2>
 
 <button onclick="shareWhatsApp()">Share on WhatsApp</button>
 `;
 
 function shareWhatsApp() {
-  const text = `🎄 Dear ${name} 🎄\nMurugu wishes you a Merry Christmas 🎅\n\nClick below 👇`;
+  const text = `🎄 Dear ${name} 🎄\nMuruganandam R S wishes you a Merry Christmas 🎅\n\nClick below 👇`;
   const url = window.location.href;
   window.location.href =
     "https://wa.me/?text=" + encodeURIComponent(text + "\n" + url);
